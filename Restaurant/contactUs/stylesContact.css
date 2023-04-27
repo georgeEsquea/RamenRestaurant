@@ -1,0 +1,160 @@
+*{
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+
+body, html {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    background-color: #191919;
+  }
+
+.bg{
+    background-image: url(ramen.jpg);
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    
+
+}
+
+
+.bg-text{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.btn{
+    font-size: 40px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #cb202d;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 20px black;
+    transition: transform 750ms;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+}
+    
+
+.links li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+.logo{
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #191919;
+
+}
+
+
+.sec33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 5px;
+    box-sizing: border-box;
+}
+
+i{
+    padding: 5px;
+}
+
+.h1{
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.contact-container{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contact-left{
+    flex-basis: 40%;
+    padding: 40px 60px;
+   height: 400px;
+   font-size: 18px;
+
+    
+}
+
+.contact-right{
+    background-image: url("https://www.signpost.com/wp-content/uploads/2021/11/call-center-customer-service-tips-scaled.jpeg");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    flex-basis: 30%;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    background-color: #191919;
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid ;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    background-color: #191919;
+    width: 100%;
+    border: 1px solid ;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;  
+}
+
+.contact-btn{
+    width: 75px;
+    background-color: #cb202d;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 8px white;
+    font-size: 16px;
+}

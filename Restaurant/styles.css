@@ -1,0 +1,83 @@
+*{
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #191919;
+  }
+
+.bg{
+    background-image: url(ramen.jpg);
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(4px);
+    -webkit-filter: blur(4px); */
+
+
+
+}
+
+.bg-text{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.btn{
+    font-size: 40px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #cb202d;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 0 20px black;
+    transition: transform 750ms;
+}
+
+.btn:hover {
+    transform: translateY(-5px);
+}
+    
+
+.links li{
+    display: inline-block;
+    margin-left: 20px
+    
+}
+
+.logo{
+    width: 200px;
+    padding-bottom: 10px;
+}
+
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #191919;
+
+}
+
+
+.sec33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 5px;
+    box-sizing: border-box;
+}
+
+i{
+    padding: 5px;
+}
+
